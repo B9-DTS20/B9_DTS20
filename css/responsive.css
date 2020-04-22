@@ -1,0 +1,13 @@
+@media all and (max-width: 800px) {
+    .header-right {
+      display:none;
+    }
+    .collapse {
+      display: block;
+    }
+    .top-wrapper h1 {
+      font-size: 3rem;
+      margin-bottom: 0.2rem;
+    }
+
+  }

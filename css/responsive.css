@@ -6,8 +6,34 @@
       display: block;
     }
     .top-wrapper h1 {
-      font-size: 3rem;
+      font-size: 30vw 30vh;
       margin-bottom: 0.2rem;
+    }
+    .btn {
+      width: 50vw;
+      margin-left: 1rem;
+      text-align: center;
+    }
+
+  }
+
+  @media all and (max-width: 1000px) {
+    .header-right {
+      display:none;
+    }
+    .collapse {
+      display: block;
+    }
+    .top-wrapper h1 {
+      padding-left: 1rem;
+      font-size: 100vw 100vh;
+      margin-bottom: 0.2rem;
+    }
+    .btn {
+      width: 50vw;
+      margin-left: 1rem;
+      text-align: center;
+      font-size: 2.5vw;
     }
 
   }

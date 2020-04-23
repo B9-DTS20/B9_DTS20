@@ -83,13 +83,18 @@ header {
     background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
     background-size: cover;
     color: white;
-    text-align: center;
-    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100vh;
+    width: 100vw;
   }
   
   .top-wrapper h1 {
     font-size: 60px;
     letter-spacing: 0.2rem;
+    margin-top: 0.6rem;
     margin-bottom: 2rem;
     position: relative;
   }
@@ -120,7 +125,6 @@ header {
   .fa {
     margin-right: 5px;
   }
-  
   /* -=E N D   H E A D E R =- */
 
 

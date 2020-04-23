@@ -123,6 +123,52 @@ header {
   
   /* -=E N D   H E A D E R =- */
 
+  
+  
+  
+  /* CONNTACT FORM */
+  form {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    float: left;
+    position: relative;
+  }
+  .section-tittle {
+    border-bottom: 4px solid #e8eaec;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #fed136;
+  }
+  input, textarea {
+    width: 400px;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border: 1px solid #fed136;
+  }
+  .tombol {
+    color: #ffffff;
+    background-color: #fed136;
+    width: 100px;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px #e7b603;
+  }
+  .tombol:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+  }
+  .gambar-beside {
+    background-color: #fff;
+  }
+
+  /* END CONTACT FORM */
+
 
   /* FOOTER */
 

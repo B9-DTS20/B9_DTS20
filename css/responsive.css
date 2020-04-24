@@ -20,23 +20,10 @@
     #form, .gambar-beside {
       width: 100%;
     }
-    .section-tittle {
-      font-size: 20px;
-      width: 100%;
-      margin-bottom: 30px;
-    }
-    input, textarea {
-      width: 100%;
-      font-size: 10px;
-      margin-bottom: 20px;
-    }
     form p {
-      font-size: 10px;
       font-weight: bold;
     }
-    .tombol {
-      width: 50%;
-    }
+
     /*END CONTACT FORM*/
 
   }
@@ -64,7 +51,6 @@
     /*CONTACT FORM*/
     #form, .gambar-beside {
       width: 100%;
-      margin: 0 50px;
     }
     .gambar-beside {
       margin-top: 0;

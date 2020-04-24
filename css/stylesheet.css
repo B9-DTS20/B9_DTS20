@@ -46,7 +46,7 @@ header {
 }
 .header-logo {
     width: 160px;
-    margin: 5px 10PX;
+    margin: 5px 10px;
 }
 .header-left {
     float: left;
@@ -133,12 +133,15 @@ header {
   
   
   /* CONNTACT FORM */
+.contact-form {
+  overflow: auto;
+}
   form {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
     float: left;
-    position: relative;
+    width: 40%;
   }
   .section-tittle {
     border-bottom: 4px solid #e8eaec;
@@ -171,6 +174,9 @@ header {
   }
   .gambar-beside {
     background-color: #fff;
+    float: right;
+    width: 50%;
+    margin-top: 70px;
   }
 
   /* END CONTACT FORM */

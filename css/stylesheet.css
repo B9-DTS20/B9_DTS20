@@ -248,8 +248,8 @@ input, textarea {
 
 footer {
     font-family: "Lucida Grande";
-    background-color: #ffffff8f;
-    border-top: 1px solid #eee;
+    background-color: #3533338f;
+    border-top: 1px solid #000000;
     display: flex;
     justify-content: space-between;
     flex-direction: row;

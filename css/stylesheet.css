@@ -145,7 +145,40 @@ header {
   }
   /* -=E N D   H E A D E R =- */
 
+/*ABOUT*/
+.content-about {
+    height: 700px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
 
+.heading-a {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.person {
+    float: left;
+    width: 20%;
+}
+.contents-img {
+    position: relative;
+}
+.pict {
+    border-radius: 20px;
+    width: 200px;
+}
+.contents-txt h3,h4 {
+    color: #2d2c2e;
+    font-weight: normal;
+    font-family: "Awesome";
+}
+.motto {
+    font-style: italic;
+}
+/*END ABOUT*/
 
 /*CONTENT TEAM*/
 

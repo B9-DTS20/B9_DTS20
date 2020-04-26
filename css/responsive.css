@@ -1,35 +1,9 @@
-/*Untuk Smartphones*/
-@media all and (max-width: 670px) {
-    .header-right {
-      display:none;
-    }
-    .collapse {
-      display: block;
-    }
-    .top-wrapper h1 {
-      font-size: 30vw 30vh;
-      margin-bottom: 0.2rem;
-    }
-    .btn {
-      width: 50vw;
-      margin-left: 1rem;
-      text-align: center;
-    }
-
-    /*CONTACT FORM*/
-    #form, .gambar-beside {
-      width: 100%;
-    }
-    form p {
-      font-weight: bold;
-    }
-
-    /*END CONTACT FORM*/
-
-  }
-
-  /*Untuk Tablets*/
+/*Untuk Tablets*/
   @media all and (max-width: 1000px) {
+    * {
+      box-sizing: border-box;
+    }
+
     .header-right {
       display:none;
     }
@@ -48,13 +22,160 @@
       font-size: 2.5vw;
     }
 
-    /*CONTACT FORM*/
-    #form, .gambar-beside {
+    .content-about {
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+    }
+
+    .content-team{
+      height: 600px;
+    }
+
+    .person {
+      flex: auto;
+      width: 50%;
+    }
+
+    .person-type {
+      flex: auto;
       width: 100%;
     }
+
+    .img-round {
+      border-radius: 100px;
+      width: 100px;
+      border: 5px solid #727270;
+    }
+
+    .member-icon p {
+      position: absolute;
+      top: 50px;
+      width: 100%;
+      color: white;
+    }
+
+    .member h3 {
+      font-size: small;
+    }
+
+    .member a {
+      font-size: small;
+    }
+
+    .member h4 {
+      font-size: small;
+    }
+    
+
+    /*CONTACT FORM*/
+    
     .gambar-beside {
-      margin-top: 0;
+      display: none;
     }
     /*END CONTACT FORM*/
 
   }
+
+  /*Untuk Smartphones*/
+@media all and (max-width: 670px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+  .header-right {
+    display:none;
+  }
+  .collapse {
+    display: block;
+  }
+  .top-wrapper h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .btn-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-about{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .content-about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-team{
+    width: 100%;
+    padding: 0;
+    height: auto;
+  }
+
+  .content-team .container-about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .container-about .heading {
+    text-align: center;
+    width: 100%;
+  }
+
+  .person {
+    width: 100%;
+  }
+
+  .member{
+    flex: auto;
+    padding: 0px;
+    width: 50%;
+    
+  }
+
+  .member .member-icon {
+    align-items: center;
+  }
+
+  /*CONTACT FORM*/
+  #form, .gambar-beside {
+    width: 100%;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  textarea {
+    width: 300px;
+  }
+
+
+  form p {
+    font-weight: bold;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .footer-image {
+    height: 50px;
+    padding: 5px 10px;
+  }
+
+  footer p {
+    font-size: x-small;
+    text-align: center;
+  }
+
+  /*END CONTACT FORM*/
+
+}

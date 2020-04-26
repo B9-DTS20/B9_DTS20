@@ -162,14 +162,24 @@ header {
 .person {
     float: left;
     width: 20%;
+    padding: 0 10px;
 }
+
+.person:hover .contents-img  {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: scale(1.1) ;
+    box-shadow: 2px 2px 2px 2px #aaaaaa;
+} 
+
 .contents-img {
     position: relative;
+    padding: 0 5px;
 }
 .pict {
     border-radius: 20px;
     width: 200px;
 }
+
 .contents-txt h3,h4 {
     color: #2d2c2e;
     font-weight: normal;
@@ -183,12 +193,13 @@ header {
 /*CONTENT TEAM*/
 
 .content-team {
-    height: 520px;
+    height: 700px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     /* Ubah property text-align ke center */
     text-align: center;
 }
+
 
 .heading {
     padding-top: 60px;
@@ -197,6 +208,8 @@ header {
 }
 
 .member {
+    padding-right: 2%;
+    padding-left: 2%;
     float: left;
     width: 20%;
 }
@@ -224,7 +237,7 @@ header {
 
 /* CONNTACT FORM */
   .contact-form {
-    overflow: auto;
+    
   }
 form {
     margin: 0;
@@ -280,6 +293,7 @@ input, textarea {
 /* FOOTER */
 
 footer {
+    clear: both;
     font-family: "Lucida Grande";
     background-color: #3533338f;
     border-top: 1px solid #000000;
